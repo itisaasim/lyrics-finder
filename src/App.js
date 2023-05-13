@@ -30,7 +30,7 @@ function App() {
 				onChange={(e) => { setSong(e.target.value) }} />
 			<button className="btn"
 				onClick={() => searchLyrics()}>
-					???? Search</button>
+					Search</button>
 			<hr />
 			<pre>{lyrics}</pre>
 		</div>
